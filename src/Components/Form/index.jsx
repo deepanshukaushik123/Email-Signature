@@ -18,16 +18,16 @@ const Index = () => {
 
     const signatureRef = useRef(null);
 
-    const copyToClipboard = () => {
-        if (signatureRef.current) {
-            const signatureHTML = signatureRef.current.innerHTML;
-            navigator.clipboard.writeText(signatureHTML).then(() => {
-                alert('Signature copied to clipboard!');
-            }).catch(err => {
-                console.error('Failed to copy: ', err);
-            });
-        }
-    };
+    // const copyToClipboard = () => {
+    //     if (signatureRef.current) {
+    //         const signatureHTML = signatureRef.current.innerHTML;
+    //         navigator.clipboard.writeText(signatureHTML).then(() => {
+    //             alert('Signature copied to clipboard!');
+    //         }).catch(err => {
+    //             console.error('Failed to copy: ', err);
+    //         });
+    //     }
+    // };
     return (
         <>
             <div className="appContainer">

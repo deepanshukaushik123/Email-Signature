@@ -235,7 +235,7 @@ const Index = ({
               <table cellpadding="0" cellspacing="0" border="0" style={{ maxWidth: '600px' }}>
                 <tbody>
                   <tr>
-                    <td style={{ padding: '12px 1px 0px 0px', fontFamily: 'Arial, sans-serif', fontSize: '10px', lineHeight: '12px', color: 'rgb(136,136,136)' }}>
+                    <td style={{ padding: '12px 1px 0px 0px', fontFamily: 'Arial, sans-serif', fontSize: '10px', lineHeight: '12px', color: 'rgb(136,136,136)', textAlign: 'justify'  }}>
                       <p style={{ margin: '1px' }}>
                         The content of this email is confidential and intended for the recipient specified in message only. It is strictly forbidden to share any part of this message with any third party, without a written consent of the sender. If you received this message by mistake, please reply to this message and follow with its deletion, so that we can ensure such a mistake does not occur in the future.
                       </p>
