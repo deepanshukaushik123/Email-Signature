@@ -43,7 +43,7 @@ const Index = ({
             <button onClick={copyToClipboard} style={{ marginBottom: '40px', height: "2.5em", color: 'white', backgroundColor: 'green', border: 'none', cursor: 'pointer' }}>
                 Copy Signature
             </button>
-            <table ref={contentRef} cellPadding="0" cellSpacing="0" border="0" style={{ borderCollapse: 'separate', width: '100%' }}>
+            <table ref={contentRef} cellPadding="0" cellSpacing="0" border="0" style={{ borderCollapse: 'separate', width: '100%', textAlign: 'left' }}>
                 <tbody>
                     <tr>
                         <td style={{ padding: '0 1px 0 0' }}>

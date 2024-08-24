@@ -75,6 +75,7 @@ const Index = ({
                     display: 'flex',
                     alignItems: 'left',
                     fontSize: '13px',
+                    textAlign: 'left',
                     lineHeight: '15px',
                     fontWeight: '700',
                     color: 'rgb(0,0,0)',
@@ -89,6 +90,7 @@ const Index = ({
                     fontFamily: 'Arial, sans-serif',
                     fontSize: '13px',
                     display: 'flex',
+                    textAlign: 'left',
                     alignItems: 'left',
                     lineHeight: '15px',
                     whiteSpace: 'nowrap',
@@ -103,6 +105,7 @@ const Index = ({
                     fontFamily: 'Arial, sans-serif',
                     fontSize: '13px',
                     display: 'flex',
+                    textAlign: 'left',
                     alignItems: 'left',
                     lineHeight: '15px',
                     whiteSpace: 'nowrap',
@@ -115,15 +118,15 @@ const Index = ({
               </td>
             </tr>
             <tr>
-              <td style={{ padding: '0px 1px 0px 0px' }}>
-                <table cellPadding="0" cellSpacing="0" border="0">
+              <td style={{ padding: '0px 1px 0px 0px', textAlign: 'left' }}>
+                <table cellPadding="0" cellSpacing="0" border="0" >
                   <tbody>
                     <tr>
-                      <td style={{ padding: '10px 1px 10px 0px', borderTop: '1px solid rgb(0,0,0)', borderBottom: '1px solid rgb(0,0,0)' }}>
+                      <td style={{ padding: '10px 1px 10px 0px', textAlign: 'left', borderTop: '1px solid rgb(0,0,0)', borderBottom: '1px solid rgb(0,0,0)' }}>
                         <table cellPadding="0" cellSpacing="0" border="0">
                           <tbody>
                             <tr>
-                              <td style={{ padding: '0px 18px 0px 0px' }}>
+                              <td style={{ padding: '0px 18px 0px 0px',  textAlign: 'left' }}>
                                 <table cellPadding="0" cellSpacing="0" border="0">
                                   <tbody>
                                     <tr>
@@ -228,7 +231,7 @@ const Index = ({
               </td>
             </tr>
             <tr>
-              <td style={{ padding: '0px 1px 0px 0px' }}>
+              <td style={{ padding: '0px 1px 0px 0px',textAlign: 'left' }}>
                 <table cellPadding="0" cellSpacing="0" border="0">
                   <tbody>
                     <tr>

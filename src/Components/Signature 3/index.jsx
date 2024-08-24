@@ -42,18 +42,18 @@ const Index = ({
       <button onClick={copyToClipboard} style={{ marginBottom: '20px', height: "2.5em", color: 'white', backgroundColor: 'green', border: 'none', cursor: 'pointer' }}>
         Copy Signature
       </button>
-      <table ref={contentRef} cellpadding="0" cellspacing="0" border="0" className="sh-src" style={{ borderCollapse: 'separate' }}>
+      <table ref={contentRef} cellpadding="0" cellspacing="0" border="0" className="sh-src" style={{ borderCollapse: 'separate', textAlign: 'left' }}>
         <tbody>
           <tr>
-            <td style={{ padding: '0px 1px 0px 0px' }}>
+            <td style={{ padding: '0px 1px 0px 0px', textAlign: 'left' }}>
               <table cellpadding="0" cellspacing="0" border="0" style={{ borderCollapse: 'separate' }}>
                 <tbody>
                   <tr>
-                    <td align="center" style={{ padding: '0px 14px 0px 0px', verticalAlign: 'top' }}>
+                    <td align="center" style={{ padding: '0px 14px 0px 0px', verticalAlign: 'top', textAlign: 'left' }}>
                       <table cellpadding="0" cellspacing="0" border="0" style={{ borderCollapse: 'separate' }}>
                         <tbody>
                           <tr>
-                            <td style={{ padding: '0px 1px 0px 0px' }}>
+                            <td style={{ padding: '0px 1px 0px 0px', textAlign: 'left' }}>
                               <p style={{ margin: '1px' }}>
                                 <a href={fullWebsiteURL}>
                                   <img
@@ -97,11 +97,11 @@ const Index = ({
                             </td>
                           </tr>
                           <tr>
-                            <td style={{ padding: '8px 1px 8px 0px', borderBottom: '1px solid rgb(0,0,0)' }}>
+                            <td style={{ padding: '8px 1px 8px 0px', borderBottom: '1px solid rgb(0,0,0)', textAlign: 'left' }}>
                               <table cellpadding="0" cellspacing="0" border="0">
                                 <tbody>
                                   <tr>
-                                    <td valign="middle" style={{ padding: '1px 5px 1px 0px', verticalAlign: 'middle' }}>
+                                    <td valign="middle" style={{ padding: '1px 5px 1px 0px', verticalAlign: 'middle', textAlign: 'left' }}>
                                       <p style={{ margin: '1px' }}>
                                         <img
                                           src="https://nexgentechsolutions.com/wp-content/uploads/2024/08/emailIcon.png"
