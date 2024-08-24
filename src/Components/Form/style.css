@@ -1,7 +1,7 @@
 .appContainer{
     display: flex;
     flex-direction: column;
-    background-color: rgb(245, 232, 232);  
+    background-color: rgba(189, 225, 225, 0.537);  
     padding: 2em 0;
     align-items: center;
 }

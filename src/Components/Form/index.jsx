@@ -31,7 +31,8 @@ const Index = () => {
     return (
         <>
             <div className="appContainer">
-                <h2>Email Signature Creator</h2>
+                <h1 style={{color: 'black'}}>Email Signature Creator</h1>
+                
                 <div className="form">
 
                     <div className="input-field">
