@@ -16,7 +16,7 @@ const Index = ({
   // Helper function to ensure the URL has 'https://'
   const ensureHttps = (url) => {
     if (!url) return '';
-    return url.startsWith('https://') ? url : `https://${url}`;
+    return url.startsWith('https://www.') ? url : `https://www.${url}`;
   };
 
   const fullWebsiteURL = ensureHttps(website);
