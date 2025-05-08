@@ -138,7 +138,9 @@ const Index = ({
                                               alt=""
                                               width="100"
                                               height="77"
-                                              style={{ display: 'block', border: '0px', maxWidth: '100px' }}
+                                              maxWidth="100"
+                                              maxHeight="77"
+                                              style={{ display: 'block', border: '0px', maxWidth: '100px', maxHeight: '77px' }}
                                             />
                                           </a>
                                         </p>
@@ -159,7 +161,9 @@ const Index = ({
                                             alt=""
                                             width="14"
                                             height="14"
-                                            style={{ display: 'block', border: '0px', width: '14px', height: '14px' }}
+                                            maxHeight="14"
+                                            maxWidth="14"
+                                            style={{ display: 'block', border: '0px', width: '14px', height: '14px', maxHeight: '14px', maxWidth: '14px'  }}
                                           />
                                         </p>
                                       </td>
@@ -181,7 +185,9 @@ const Index = ({
                                             alt=""
                                             width="14"
                                             height="14"
-                                            style={{ display: 'block', border: '0px', width: '14px', height: '14px' }}
+                                            maxHeight="14"
+                                            maxWidth="14"
+                                            style={{ display: 'block', border: '0px', width: '14px', height: '14px', maxHeight: '14px', maxWidth: '14px'  }}
                                           />
                                         </p>
                                       </td>
@@ -203,7 +209,9 @@ const Index = ({
                                             alt=""
                                             width="14"
                                             height="14"
-                                            style={{ display: 'block', border: '0px', width: '14px', height: '14px' }}
+                                            maxHeight="14"
+                                            maxWidth="14"
+                                            style={{ display: 'block', border: '0px', width: '14px', height: '14px', maxHeight: '14px', maxWidth: '14px' }}
                                           />
                                         </p>
                                       </td>
@@ -243,7 +251,9 @@ const Index = ({
                               alt=""
                               width="19"
                               height="19"
-                              style={{ display: 'block', border: '0px', width: '19px', height: '19px' }}
+                              maxHeight="19"
+                              maxWidth="19"
+                              style={{ display: 'block', border: '0px', width: '19px', height: '19px', maxHeight: '19px', maxWidth: '19px' }}
                             />
                           </a>
                         </p>
@@ -257,7 +267,9 @@ const Index = ({
                               alt=""
                               width="19"
                               height="19"
-                              style={{ display: 'block', border: '0px', width: '19px', height: '19px' }}
+                               maxHeight="19"
+                              maxWidth="19"
+                              style={{ display: 'block', border: '0px', width: '19px', height: '19px', maxHeight: '19px', maxWidth: '19px' }}
                             />
                           </a>
                         </p>
@@ -271,7 +283,7 @@ const Index = ({
                               alt=""
                               width="19"
                               height="19"
-                              style={{ display: 'block', border: '0px', width: '19px', height: '19px' }}
+                              style={{ display: 'block', border: '0px', width: '19px', height: '19px', maxHeight: '19px', maxWidth: '19px' }}
                             />
                           </a>
                         </p>
